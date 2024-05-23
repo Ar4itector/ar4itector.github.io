@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/font-awesome/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/catalog.css">
+    <link rel="script" href="assets/scripts/script.js">
+    <title>KINOFILM</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html">KINOFILM</a></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <input placeholder="Поиск" type="text" class="search-block">
+        </div>
+        <div class="promocode">
+            <a href="#promocode"><span class="sign-in" id="sign-in">Ввести промокод</span></a>
+        </div>
+        <div class="profile">
+          <a href="#signin"><span class="sign-in" id="sign-in">Войти</span></a>
+        </div>
+    </header>
+    <main>
+        <div id="signin" class="modalbg">
+            <div class="dialog">
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>Вход</h2>
+                <div class="modal">
+                    <input class="modal-input" placeholder="Логин" type="text">
+                    <input class="modal-input" placeholder="Пароль" type="password">
+                    <p><button class="btn-modal" type="submit">Войти</button><a href="#signup"><button class="btn-modal">Зарегистрироваться</button></a></p>
+                </div>
+             </div>
+        </div>
+        <div id="signup" class="modalbg">
+            <div class="dialog1">
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>Регистрация</h2>
+                <div class="modal">
+                    <input class="modal-input" placeholder="Логин" type="text">
+                    <input class="modal-input" placeholder="Почта" type="text">
+                    <input class="modal-input" placeholder="Введите пароль" type="password">
+                    <input class="modal-input" placeholder="Повторите пароль" type="password">
+                    <p><button class="btn-modal" type="submit">Зарегистрироваться</button></p>
+                </div>
+             </div>
+        </div>
+        <div id="promocode" class="modalbg">
+            <div class="dialog2">
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>Активация промокода</h2>
+                <div class="modal">
+                    <input class="modal-input" placeholder="Промокод" type="text">
+                    <p><button class="btn-modal" type="submit">Активировать</button></p>
+                </div>
+             </div>
+        </div>
+        <div class="block-film">
+            <div class="film-h3">
+                <div class="img-film">
+                    <a href="films.html"><div class="film-block"><h3>Фильмы</h3></div></a>
+                    <a href="serials.html"><div class="film-block"><h3>Сериалы</h3></div></a>
+                    <a href="multfilms.html"><div class="film-block"><h3>Мультфильмы</h3></div></a>
+                    <div class="film-block"><h3>Спорт</h3></div>
+                    <div class="film-block"><h3>Фитнес</h3></div>
+                </div>
+            </div>
+            <div class="film-h3">
+                <div class="img-film">
+                    <div class="film-block"><h3>Природа</h3></div>
+                    <div class="film-block"><h3>Лекции</h3></div>
+                    <div class="film-block"><h3>Кулинария</h3></div>
+                    <div class="film-block"><h3>Программы</h3></div>
+                    <div class="film-block"><h3>Концерты</h3></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <div class="logo"><a href="#">KINOFILM</a></div>
+        <div class="block-footer">
+            <nav>
+                <ul>
+                    <div class="film-h3">
+                        <h3>О нас</h3>
+                    </div>
+                    <li><a href="">Блог</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <div class="film-h3">
+                        <h3>Помощь</h3>
+                    </div>
+                    <li><a href="">Вопросы и ответы</a></li>
+                    <li><a href="">Список устройств</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <div class="film-h3">
+                        <h3>Другое</h3>
+                    </div>
+                    <li><a href="">Акции и предложения</a></li>
+                    <li><a href="">Сертификаты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
