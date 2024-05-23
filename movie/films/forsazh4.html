@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/home.css">
+    <link rel="script" href="assets/scripts/script.js">
+    <title>KINOFILM</title>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="/index.html">KINOFILM</a></div>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Главная</a></li>
+                <li><a href="/catalog.html">Каталог</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <input placeholder="Поиск" type="text" class="search-block">
+        </div>
+        <div class="promocode">
+            <a href="#promocode"><span class="sign-in" id="sign-in">Ввести промокод</span></a>
+        </div>
+        <div class="profile">
+          <a href="#signin"><span class="sign-in" id="sign-in">Войти</span></a>
+        </div>
+    </header>
+    <div class="sub-menu">
+        <nav>
+            <ul>
+                <li><a href="/films.html">Фильмы</a></li>
+                <li><a href="/serials.html">Сериалы</a></li>
+                <li><a href="/multfilms.html">Мультфильмы</a></li>
+                <li><a href="">Спорт</a></li>
+                <li><a href="">Фитнес</a></li>
+                <li><a href="">Природа</a></li>
+                <li><a href="">Лекции</a></li>
+                <li><a href="">Кулинария</a></li>
+                <li><a href="">Программы</a></li>
+                <li><a href="">Концерты</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <div class="watch">
+            <div class="watch-block">
+                <div class="watch-info">
+                    <a href="#film-info"><p class="text">О фильме</p><img src="/assets/img/forsazh/forsazh4.png" alt=""></a>
+                </div>
+                <div class="watch-info1">
+                    <p>Доминик и Брайан объединяются, чтобы найти убийц Летти и раскрыть наркокартель. Четверка снова в сборе</p>
+                </div>
+            </div>
+            <div class="watch">
+                <div class="watch-block-video">
+                    <iframe style="border-radius: 5px;" width="100%" height="600px" src="https://www.youtube.com/embed/efc0M1SL59E" title="Форсаж (2001) - Дублир трейлер2 Open Matte HD" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div id="film-info" class="modalbg">
+            <div class="dialog">
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>О фильме</h2>
+                <div class="modal-info">
+                    <p>Год производства: <span class="bg-info">2011</span></p>
+                    <p>Страна: <span class="bg-info">США, Япония</span></p>
+                    <p>Жанр: <span class="bg-info">боевик, триллер, криминал</span></p>
+                    <p>Режиссёр: <span class="bg-info">Джастин Лин</span></p>
+                </div>
+            </div>
+        </div>
+        <div id="signin" class="modalbg">
+            <div class="dialog">
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>Вход</h2>
+                <div class="modal">
+                    <input class="modal-input" placeholder="Логин" type="text">
+                    <input class="modal-input" placeholder="Пароль" type="password">
+                    <p><button class="btn-modal" type="submit">Войти</button><a href="#signup"><button class="btn-modal">Зарегистрироваться</button></a></p>
+                </div>
+             </div>
+        </div>
+        <div id="signup" class="modalbg">
+            <div class="dialog1">
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>Регистрация</h2>
+                <div class="modal">
+                    <input class="modal-input" placeholder="Логин" type="text">
+                    <input class="modal-input" placeholder="Почта" type="text">
+                    <input class="modal-input" placeholder="Введите пароль" type="password">
+                    <input class="modal-input" placeholder="Повторите пароль" type="password">
+                    <p><button class="btn-modal" type="submit">Зарегистрироваться</button></p>
+                </div>
+             </div>
+        </div>
+        <div id="promocode" class="modalbg">
+            <div class="dialog2">
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>Активация промокода</h2>
+                <div class="modal">
+                    <input class="modal-input" placeholder="Промокод" type="text">
+                    <p><button class="btn-modal" type="submit">Активировать</button></p>
+                </div>
+             </div>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <div class="logo"><a href="#">KINOFILM</a></div>
+        <div class="block-footer">
+            <nav>
+                <ul>
+                    <div class="film-h3">
+                        <h3>О нас</h3>
+                    </div>
+                    <li><a href="">Блог</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <div class="film-h3">
+                        <h3>Помощь</h3>
+                    </div>
+                    <li><a href="">Вопросы и ответы</a></li>
+                    <li><a href="">Список устройств</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <div class="film-h3">
+                        <h3>Другое</h3>
+                    </div>
+                    <li><a href="">Акции и предложения</a></li>
+                    <li><a href="">Сертификаты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
